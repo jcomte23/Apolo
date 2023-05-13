@@ -27,8 +27,9 @@ return new class extends Migration
                 ->cascadeOnUpdate()
                 ->restrictOnDelete();
             $table->string("budget");
-            $table->string("compliance_date");
-            $table->boolean("status");
+            $table->date("start_date");
+            $table->date("compliance_date");
+            $table->boolean("status")->default(true);
             $table->timestamps();
         });
     }

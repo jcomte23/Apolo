@@ -15,12 +15,18 @@ class Cities extends Model
     |--------------------------------------------------------------------------
     */
 
-    // protected $table = '';
-    // protected $primaryKey = 'id';
+    protected $table = 'cities';
+    protected $primaryKey = 'id';
     // public $timestamps = false;
+    // public $incrementing = false;
+    // protected $keyType = 'string';
+    // protected $connection = 'connection-name';
     // protected $guarded = [];
     // protected $fillable = [
     //     'campo',
+    // ];
+    // protected $attributes = [
+    //     'name' => 'hola',
     // ];
     // protected $hidden = [];
     // protected $dates = [];
