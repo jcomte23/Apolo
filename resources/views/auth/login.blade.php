@@ -12,6 +12,12 @@
             </div>
         @endif
 
+        <div class="flex justify-end">
+            <a href="{{route('lang',"es")}}" class="mx-2 px-2 py-1 bg-gray-300 text-gray-700 font-semibold rounded-lg text-sm">ES</a>
+            <a href="{{route('lang',"en")}}" class="mx-2 px-2 py-1 bg-gray-300 text-gray-700 font-semibold rounded-lg text-sm">EN</a>
+            <a href="{{route('lang',"fr")}}" class="mx-2 px-2 py-1 bg-gray-300 text-gray-700 font-semibold rounded-lg text-sm">FR</a>
+        </div>
+
         <form method="POST" action="{{ route('login') }}">
             @csrf
 

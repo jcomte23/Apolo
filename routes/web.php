@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LanguagesController;
 use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get("locale/{locale}",[LanguagesController::class,'setLang'])->name('lang');
 
 Route::resource('Projects',ProjectsController::class);
 
