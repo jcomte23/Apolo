@@ -5,10 +5,46 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
+                    {{-- <a href="{{ route('dashboard') }}">
                         <x-application-mark class="block h-9 w-auto" />
-                    </a>
+                    </a> --}}
+                    <div x-data="{ open: false }" class="relative inline-block text-left ml-3">
+                        <div>
+                            <button @click="open = !open" type="button"
+                                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-white bg-gray-700 border border-transparent rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-white">
+                                {{ __('Lang') }}
+                                <svg x-bind:class="{ 'rotate-180': open }"
+                                    class="w-5 h-5 ml-2 -mr-1 transition-transform duration-200"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div x-show="open" @click.away="open = false"
+                            class="absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+                            style="width: max-content;" role="menu" aria-orientation="vertical"
+                            aria-labelledby="options-menu">
+                            <div class="py-1 text-center" role="none">
+                                <a href="{{route('lang',"es")}}"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                                    role="menuitem">Español</a>
+                                <a href="{{route('lang',"fr")}}"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                                    role="menuitem">Français</a>
+                                <a href="{{route('lang',"en")}}"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                                    role="menuitem">English</a>
+                                <a href="{{route('lang',"it")}}"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                                    role="menuitem">Italiano</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
