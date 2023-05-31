@@ -13,6 +13,8 @@ class ProjectsController extends Controller
      */
     public function index()
     {
+        $projects = Projects::all();
+        return view('viewsInternals.projects.index', compact('projects'));
         // $id=4;
         // $project = Projects::find($id);
         // $project->name = 'Proyecto de tecnología';

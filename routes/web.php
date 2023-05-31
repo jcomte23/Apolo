@@ -19,9 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("locale/{locale}",[LanguagesController::class,'setLang'])->name('lang');
+Route::get("locale/{locale}", [LanguagesController::class, 'setLang'])->name('lang');
 
-Route::resource('Projects',ProjectsController::class);
 
 Route::middleware([
     'auth:sanctum',
@@ -31,4 +30,5 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::resource('projects', ProjectsController::class);
 });

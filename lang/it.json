@@ -1,4 +1,6 @@
 {
+    "Projects": "Progetti",
+
     "(and :count more error)": "(e :count altro errore)",
     "(and :count more errors)": "(e :count altri errori)",
     "A new verification link has been sent to the email address you provided in your profile settings.": "Un nuovo link di verifica è stato inviato all'indirizzo email indicato nelle impostazioni del profilo.",
