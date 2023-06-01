@@ -13,22 +13,22 @@
                         <tr>
                             <th
                                 class="text-center py-2 px-4 border-b border-gray-200 bg-blue-500 text-left text-sm font-bold uppercase">
-                                Status</th>
+                                {{ __('Status') }}</th>
                             <th
                                 class="text-center py-2 px-4 border-b border-gray-200 bg-blue-500 text-left text-sm font-bold uppercase">
-                                Name</th>
+                                {{ __('Name') }}</th>
                             <th
                                 class="text-center py-2 px-4 border-b border-gray-200 bg-blue-500 text-left text-sm font-bold uppercase">
-                                Company</th>
+                                {{ __('Company') }}</th>
                             <th
                                 class="text-center py-2 px-4 border-b border-gray-200 bg-blue-500 text-left text-sm font-bold uppercase">
-                                Budget</th>
+                                {{ __('Budget') }}</th>
                             <th
                                 class="text-center py-2 px-4 border-b border-gray-200 bg-blue-500 text-left text-sm font-bold uppercase">
-                                Start date</th>
+                                {{ __('Start date') }}</th>
                             <th
                                 class="text-center py-2 px-4 border-b border-gray-200 bg-blue-500 text-left text-sm font-bold uppercase">
-                                Compliance date</th>
+                                {{ __('Compliance date') }}</th>
                         </tr>
                     </thead>
                     <tbody>

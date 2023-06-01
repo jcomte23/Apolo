@@ -1,5 +1,12 @@
 {
     "Projects": "Proyectos",
+    "Lang": "Idioma",
+    "Status": "Estado",
+    "Name": "Nombre",
+    "Company": "Empresa",
+    "Budget": "Presupuesto",
+    "Start date": "Fecha de inicio",
+    "Compliance date": "Fecha de cumplimiento",
 
     "(and :count more error)": "(y :count error más)",
     "(and :count more errors)": "(y :count errores más)",
@@ -85,7 +92,6 @@
     "Manage API Tokens": "Administrar Tokens API",
     "Manage Role": "Administrar rol",
     "Manage Team": "Administrar equipo",
-    "Name": "Nombre",
     "New Password": "Nueva Contraseña",
     "Not Found": "No encontrado",
     "of": "de",

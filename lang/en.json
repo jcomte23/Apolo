@@ -1,5 +1,12 @@
 {
     "Projects": "Projects",
+    "Lang": "Language",
+    "Status": "Status",
+    "Name": "Name",
+    "Company": "Company",
+    "Budget": "Budget",
+    "Start date": "Start date",
+    "Compliance date": "Compliance date",
 
     "(and :count more error)": "(and :count more error)",
     "(and :count more errors)": "(and :count more errors)",
@@ -85,7 +92,6 @@
     "Manage API Tokens": "Manage API Tokens",
     "Manage Role": "Manage Role",
     "Manage Team": "Manage Team",
-    "Name": "Name",
     "New Password": "New Password",
     "Not Found": "Not Found",
     "of": "of",

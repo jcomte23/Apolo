@@ -1,5 +1,12 @@
 {
     "Projects": "Les projets",
+    "Lang": "Langue",
+    "Status": "Statut",
+    "Name": "Nom",
+    "Company": "Société",
+    "Budget": "Budget",
+    "Start date": "Date de début",
+    "Compliance date": "Date de mise en conformité",
 
     "(and :count more error)": "(et :count erreur en plus)",
     "(and :count more errors)": "(et :count erreurs en plus)",
@@ -85,7 +92,6 @@
     "Manage API Tokens": "Gérer les jetons API",
     "Manage Role": "Gérer le rôle",
     "Manage Team": "Gérer l'équipe",
-    "Name": "Nom",
     "New Password": "Nouveau mot de passe",
     "Not Found": "Non trouvé",
     "of": "de",
