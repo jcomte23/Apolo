@@ -36,9 +36,9 @@
                             <tr>
                                 <td class="py-2 px-4 border-b border-gray-200">
                                     @if ($item->status == 0)
-                                        <span class="text-red-500 font-bold">Inactive</span>
+                                        <span class="text-red-500 font-bold">{{ __('Inactive') }}</span>
                                     @else
-                                        <span class="text-green-500 font-bold">Active</span>
+                                        <span class="text-green-500 font-bold">{{ __('Active') }}</span>
                                     @endif
                                 </td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->name}}</td>

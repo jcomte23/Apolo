@@ -7,6 +7,8 @@
     "Budget": "Presupuesto",
     "Start date": "Fecha de inicio",
     "Compliance date": "Fecha de cumplimiento",
+    "Active": "Activo",
+    "Inactive": "Inactivo",
 
     "(and :count more error)": "(y :count error más)",
     "(and :count more errors)": "(y :count errores más)",

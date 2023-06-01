@@ -7,6 +7,8 @@
     "Budget": "Budget",
     "Start date": "Start date",
     "Compliance date": "Compliance date",
+    "Active": "Active",
+    "Inactive": "Inactive",
 
     "(and :count more error)": "(and :count more error)",
     "(and :count more errors)": "(and :count more errors)",
