@@ -42,7 +42,7 @@
                                     @endif
                                 </td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->name}}</td>
-                                <td class="py-2 px-4 border-b border-gray-200">{{$item->companies_id}}</td>
+                                <td class="py-2 px-4 border-b border-gray-200">{{$item->unionTblCompanies->name}}</td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->budget}}</td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->start_date}}</td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->compliance_date}}</td>

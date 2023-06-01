@@ -42,6 +42,10 @@ class Cities extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+    public function unionTblProjects()
+    {
+        return $this->hasMany(Projects::class);
+    }
 
     /*
     |--------------------------------------------------------------------------

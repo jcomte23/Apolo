@@ -42,6 +42,15 @@ class Projects extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+    public function unionTblCities()
+    {
+        return $this->belongsTo(Cities::class, 'cities_id');
+    }
+
+    public function unionTblCompanies()
+    {
+        return $this->belongsTo(Companies::class, 'companies_id');
+    }
 
     /*
     |--------------------------------------------------------------------------
