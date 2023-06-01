@@ -13,34 +13,9 @@ class ProjectsController extends Controller
      */
     public function index()
     {
-        $projects = Projects::all();
+        $user_id = auth()->user()->id;
+        $projects = Projects::where('users_id', $user_id)->orderBy('status', 'desc')->paginate(10);;
         return view('viewsInternals.projects.index', compact('projects'));
-        // $id=4;
-        // $project = Projects::find($id);
-        // $project->name = 'Proyecto de tecnología';
-        // $project->save();
-
-        // return "Actualizado";
-
-        // $project = new Projects();
-        // $project->name = 'remodelacion local Falabela';
-        // $project->companies_id = 1;
-        // $project->cities_id = 1;
-        // $project->users_id = 1;
-        // $project->budget = "50000";
-        // $project->start_date = '2020-04-30';
-        // $project->compliance_date = '2021-04-30';
-        // $project->status = 1;
-        // $project->save();
-
-        // return "Guardado";
-
-        // Companies::chunk(200, function ($companies) {
-        //     foreach ($companies as $company) {
-        //         //Aquí escribimos lo que haremos con los datos (operar, modificar, etc)
-        //         echo $company->name . "<br>";
-        //     }
-        // });
     }
 
     /**
