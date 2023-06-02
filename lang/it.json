@@ -9,6 +9,8 @@
     "Compliance date": "Data di adempimento",
     "Active": "Attivo",
     "Inactive": "Inattivo",
+    "WelcomeTo": "Benvenuti ad",
+    "IntroducctionProgram":"Il nostro progetto di gestione dei progetti sviluppato con Laravel è una piattaforma completa e facile da usare che consente agli utenti di pianificare, organizzare, collaborare e controllare i loro progetti in modo efficace ed efficiente. Grazie a un'interfaccia utente intuitiva e a un'ampia gamma di funzionalità e strumenti di gestione dei progetti, il nostro progetto aiuta gli utenti a definire obiettivi chiari, assegnare compiti e responsabilità, stabilire scadenze e budget, monitorare i progressi e mantenere una comunicazione fluida tra i membri del team. Inoltre, il nostro progetto si integra perfettamente con altri strumenti e servizi di terze parti, come e-mail, cloud e social media, per fornire una soluzione di gestione dei progetti completa e personalizzata per ogni utente.",
 
     "(and :count more error)": "(e :count altro errore)",
     "(and :count more errors)": "(e :count altri errori)",

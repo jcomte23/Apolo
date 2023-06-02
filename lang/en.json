@@ -9,6 +9,8 @@
     "Compliance date": "Compliance date",
     "Active": "Active",
     "Inactive": "Inactive",
+    "WelcomeTo": "Welcome to",
+    "IntroducctionProgram":"Our project management project developed with Laravel is a comprehensive and easy-to-use platform that allows users to plan, organize, collaborate and control their projects effectively and efficiently. With an intuitive user interface and a wide range of project management features and tools, our project helps users define clear goals, assign tasks and responsibilities, set deadlines and budgets, monitor progress, and maintain smooth communication between team members. In addition, our project integrates seamlessly with other third-party tools and services, such as email, cloud and social media, to provide a complete and customized project management solution for each user.",
 
     "(and :count more error)": "(and :count more error)",
     "(and :count more errors)": "(and :count more errors)",

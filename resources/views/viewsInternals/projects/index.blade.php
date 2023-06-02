@@ -43,7 +43,7 @@
                                 </td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->name}}</td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->unionTblCompanies->name}}</td>
-                                <td class="py-2 px-4 border-b border-gray-200">{{$item->budget}}</td>
+                                <td class="py-2 px-4 border-b border-gray-200">$ {{number_format($item->budget, 2, ',', '.')}}</td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->start_date}}</td>
                                 <td class="py-2 px-4 border-b border-gray-200">{{$item->compliance_date}}</td>
                             </tr>
