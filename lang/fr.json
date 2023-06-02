@@ -11,6 +11,13 @@
     "Inactive": "Inactif",
     "WelcomeTo": "Bienvenue à",
     "IntroducctionProgram":"Notre projet de gestion de projet développé avec Laravel est une plateforme complète et facile à utiliser qui permet aux utilisateurs de planifier, d'organiser, de collaborer et de contrôler leurs projets de manière efficace et efficiente. Grâce à une interface utilisateur intuitive et à un large éventail de fonctionnalités et d'outils de gestion de projet, notre projet aide les utilisateurs à définir des objectifs clairs, à assigner des tâches et des responsabilités, à fixer des délais et des budgets, à suivre les progrès et à maintenir une communication fluide entre les membres de l'équipe. En outre, notre projet s'intègre parfaitement à d'autres outils et services tiers, tels que la messagerie électronique, le cloud et les médias sociaux, afin de fournir une solution de gestion de projet complète et personnalisée à chaque utilisateur.",
+    "Documentation":"Documentation",
+    "DocumentationParagraph":"Laravel dispose d'une excellente documentation couvrant tous les aspects du framework. Que vous soyez novice en la matière ou que vous ayez déjà de l'expérience, nous vous recommandons de lire toute la documentation du début à la fin.",
+    "LaracastsParagraph":"Laracasts propose des milliers de tutoriels vidéo sur le développement Laravel, PHP et JavaScript. Jetez-y un coup d'œil, voyez par vous-même et améliorez considérablement vos compétences en matière de développement.",
+    "TailwindParagraph":"Laravel Jetstream est construit avec Tailwind, un incroyable framework CSS utilitaire qui ne se met pas en travers de votre chemin. Vous serez surpris de la facilité avec laquelle vous pouvez construire et maintenir des designs frais et modernes avec ce merveilleux framework à portée de main.",
+    "Authentication":"Authentification",
+    "AuthenticationParagraph":"Les vues d'authentification et d'enregistrement sont incluses dans Laravel Jetstream, ainsi que la prise en charge de la vérification de l'email de l'utilisateur et de la réinitialisation des mots de passe oubliés. Vous êtes donc libre de commencer ce qui compte le plus : construire votre application.",
+
 
     "(and :count more error)": "(et :count erreur en plus)",
     "(and :count more errors)": "(et :count erreurs en plus)",

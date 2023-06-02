@@ -11,6 +11,13 @@
     "Inactive": "Inactivo",
     "WelcomeTo": "¡Bienvenido a",
     "IntroducctionProgram":"Nuestro proyecto de gestión de proyectos desarrollado con Laravel es una plataforma completa y fácil de usar que permite a los usuarios planificar, organizar, colaborar y controlar sus proyectos de manera eficaz y eficiente. Con una interfaz de usuario intuitiva y una amplia gama de funciones y herramientas de gestión de proyectos, nuestro proyecto ayuda a los usuarios a definir objetivos claros, asignar tareas y responsabilidades, establecer plazos y presupuestos, supervisar el progreso y mantener una comunicación fluida entre los miembros del equipo. Además, nuestro proyecto se integra perfectamente con otras herramientas y servicios de terceros, como el correo electrónico, la nube y las redes sociales, para ofrecer una solución de gestión de proyectos completa y personalizada para cada usuario.",
+    "Documentation":"Documentación",
+    "DocumentationParagraph":"Laravel tiene una documentación maravillosa que cubre todos los aspectos del framework. Tanto si eres nuevo en el framework como si tienes experiencia previa, te recomendamos que leas toda la documentación de principio a fin.",
+    "LaracastsParagraph":"Laracasts ofrece miles de videotutoriales sobre desarrollo en Laravel, PHP y JavaScript. Échales un vistazo, compruébalo por ti mismo y mejora tus habilidades de desarrollo en el proceso.",
+    "TailwindParagraph":"Laravel Jetstream está construido con Tailwind, un increíble framework CSS de primera utilidad que no se interpone en tu camino. Usted se sorprenderá de lo fácil que puede construir y mantener diseños frescos y modernos con este maravilloso marco a su alcance.",
+    "Authentication":"Autenticación",
+    "AuthenticationParagraph":"Las vistas de autenticación y registro se incluyen con Laravel Jetstream, así como el soporte para la verificación del correo electrónico del usuario y el restablecimiento de contraseñas olvidadas. Por lo tanto, usted es libre de empezar con lo que más importa: la construcción de su aplicación.",
+
 
     "(and :count more error)": "(y :count error más)",
     "(and :count more errors)": "(y :count errores más)",

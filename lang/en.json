@@ -11,6 +11,14 @@
     "Inactive": "Inactive",
     "WelcomeTo": "Welcome to",
     "IntroducctionProgram":"Our project management project developed with Laravel is a comprehensive and easy-to-use platform that allows users to plan, organize, collaborate and control their projects effectively and efficiently. With an intuitive user interface and a wide range of project management features and tools, our project helps users define clear goals, assign tasks and responsibilities, set deadlines and budgets, monitor progress, and maintain smooth communication between team members. In addition, our project integrates seamlessly with other third-party tools and services, such as email, cloud and social media, to provide a complete and customized project management solution for each user.",
+    "Documentation":"Documentation",
+    "DocumentationParagraph":"Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.",
+    "LaracastsParagraph":"Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.",
+    "TailwindParagraph":"Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.",
+    "Authentication":"Authentication",
+    "AuthenticationParagraph":"Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started with what matters most: building your application.",
+
+
 
     "(and :count more error)": "(and :count more error)",
     "(and :count more errors)": "(and :count more errors)",

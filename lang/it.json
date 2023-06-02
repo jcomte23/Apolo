@@ -11,6 +11,13 @@
     "Inactive": "Inattivo",
     "WelcomeTo": "Benvenuti ad",
     "IntroducctionProgram":"Il nostro progetto di gestione dei progetti sviluppato con Laravel è una piattaforma completa e facile da usare che consente agli utenti di pianificare, organizzare, collaborare e controllare i loro progetti in modo efficace ed efficiente. Grazie a un'interfaccia utente intuitiva e a un'ampia gamma di funzionalità e strumenti di gestione dei progetti, il nostro progetto aiuta gli utenti a definire obiettivi chiari, assegnare compiti e responsabilità, stabilire scadenze e budget, monitorare i progressi e mantenere una comunicazione fluida tra i membri del team. Inoltre, il nostro progetto si integra perfettamente con altri strumenti e servizi di terze parti, come e-mail, cloud e social media, per fornire una soluzione di gestione dei progetti completa e personalizzata per ogni utente.",
+    "Documentation":"Documentazione",
+    "DocumentationParagraph":"Laravel dispone di un'ottima documentazione che copre ogni aspetto del framework. Sia che siate nuovi al framework sia che abbiate già esperienza, vi consigliamo di leggere tutta la documentazione dall'inizio alla fine.",
+    "LaracastsParagraph":"Laracasts offre migliaia di video tutorial sullo sviluppo di Laravel, PHP e JavaScript. Guardateli, guardateli da soli e migliorate le vostre capacità di sviluppo.",
+    "TailwindParagraph":"Laravel Jetstream è costruito con Tailwind, uno straordinario framework CSS di prima utilità che non intralcia il vostro lavoro. Sarete sorpresi dalla facilità con cui potrete costruire e mantenere un design fresco e moderno con questo meraviglioso framework a portata di mano.",
+    "Authentication":"Autenticazione",
+    "AuthenticationParagraph":"Le viste di autenticazione e registrazione sono incluse in Laravel Jetstream, così come il supporto per la verifica dell'e-mail dell'utente e la reimpostazione delle password dimenticate. Quindi, siete liberi di iniziare a fare ciò che più conta: costruire la vostra applicazione.",
+
 
     "(and :count more error)": "(e :count altro errore)",
     "(and :count more errors)": "(e :count altri errori)",
