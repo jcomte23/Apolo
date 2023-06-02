@@ -23,7 +23,7 @@ class ProjectsController extends Controller
      */
     public function create()
     {
-        //
+        return "llego al controlador";
     }
 
     /**
@@ -58,7 +58,7 @@ class ProjectsController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return "llego al controlador";
     }
 
     /**
@@ -74,6 +74,6 @@ class ProjectsController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        return "llego al controlador";
     }
 }
